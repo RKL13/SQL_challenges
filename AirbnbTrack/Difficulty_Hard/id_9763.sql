@@ -31,16 +31,14 @@ filter_neighborhoods:datetime
 
 */
 
-WITH couple_room_total_searches AS 
-(SELECT DISTINCT
-    UNNEST(regexp_split_to_array(LTRIM(filter_room_types), ',')) AS filter_room_types_unsetted,
-    SUM(n_searches) as total_searches
-FROM airbnb_searches
-GROUP BY filter_room_types)
-
+WITH unnested_table 
+AS (SELECT DISTINCT
+        *,
+        UNNEST(regexp_split_to_array(LTRIM(filter_room_types, ','), ',')) AS unnested_filter_room
+    FROM airbnb_searches)
+    
 SELECT 
-    filter_room_types_unsetted,
-    SUM(total_searches)
-FROM couple_room_total_searches
-GROUP BY filter_room_types_unsetted
-HAVING filter_room_types_unsetted <> ''
+    unnested_filter_room,
+    SUM(n_searches) AS total_searches
+FROM unnested_table
+GROUP BY unnested_filter_room
