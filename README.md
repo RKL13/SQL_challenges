@@ -1,4 +1,4 @@
-# :honey_pot: SQL_challenges :honey_pot:
+# SQL_challenges :honey_pot: :honey_pot: :honey_pot: 
 
 We solve daily between 2 to 5 SQL challenges (starting 06-19-2022) from real SQL interview questions.
 
