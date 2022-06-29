@@ -14,6 +14,12 @@ This section gather some SQL's functions and tricks we found interesting.
 
 + ##### Functions :loop:
 
+	+ OVER (   
+       [ <PARTITION BY clause> ]  
+       [ <ORDER BY clause> ]   
+       [ <ROW or RANGE clause> ]  
+      ) 
+
 + ##### Tricks :stars:
 
 	+ One can join a table on itself to solve problem e.g : [id_10322](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Dificulty_Medium/id_10322_starred.sql) 
