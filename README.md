@@ -14,11 +14,7 @@ This section gather some SQL's functions and tricks we found interesting.
 
 + ##### Functions :loop:
 
-	+ OVER (   
-       [ <PARTITION BY clause> ]  
-       [ <ORDER BY clause> ]   
-       [ <ROW or RANGE clause> ]  
-      ) 
+	+ OVER (<PARTITION BY clause> <ORDER BY clause> <ROW or RANGE clause>) 
 
 + ##### Tricks :stars:
 
