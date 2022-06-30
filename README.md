@@ -14,11 +14,14 @@ This section gather some SQL's functions and tricks we found interesting.
 
 + ##### Functions :loop:
 
-	+ OVER (<PARTITION BY clause> <ORDER BY clause> <ROW or RANGE clause>) 
+	+ RANK(), DENSE_RANK(), ROW_NUMBER()
+	+ OVER( <PARTITION BY clause> <ORDER BY clause> <ROW or RANGE clause> ) 
 
 + ##### Tricks :stars:
 
 	+ One can join a table on itself to solve problem e.g : [id_10322](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Dificulty_Medium/id_10322_starred.sql) 
+
+	+ One can use UNION ALL on the same table to duplicates records e.g : [id_9858](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Dificulty_Medium/id_9858_starred.sql) 
 
 *Since 06-27-2022 we go with a id_numid_starred.sql to highlight funny and very interesting challenges.* 
 
