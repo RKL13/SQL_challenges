@@ -15,7 +15,8 @@ This section gather some SQL's functions and tricks we found interesting.
 + ##### Functions :loop:
 
 	+ RANK(), DENSE_RANK(), ROW_NUMBER()
-	+ OVER( <PARTITION BY clause> <ORDER BY clause> <ROW or RANGE clause> ) 
+	+ OVER( (PARTITION BY clause) (ORDER BY clause) (ROW or RANGE clause) ) 
+	+ EXTRACT( FROM )
 
 + ##### Tricks :stars:
 
