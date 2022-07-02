@@ -5,7 +5,7 @@ We solve daily between 2 to 5 SQL challenges (starting 06-19-2022) from real SQL
 Easy | Medium | Hard | Track
 :---:| :---:|:---:| ---
 ✅| ✅| ✅| [AirBnB](https://github.com/RKL13/SQL_challenges/tree/main/AirbnbTrack)
-✅| ⬜️| ⬜️| [Amazon](https://github.com/RKL13/SQL_challenges/tree/main/AmazonTrack)
+✅| ✅| ⬜️| [Amazon](https://github.com/RKL13/SQL_challenges/tree/main/AmazonTrack)
 
 
 ### Cheat Sheet of SQL's interesting funtions and tricks :wrench:
@@ -14,9 +14,10 @@ This section gather some SQL's functions and tricks we found interesting.
 
 + ##### Functions :loop:
 
-	+ RANK(), DENSE_RANK(), ROW_NUMBER()
+	+ RANK(), DENSE_RANK(), ROW_NUMBER(), WINDOW() followed by OVER() clause (below)
 	+ OVER( (PARTITION BY clause) (ORDER BY clause) (ROW or RANGE clause) ) 
 	+ EXTRACT( FROM )
+	+ TO_CHAR() for dates format
 
 + ##### Tricks :stars:
 
