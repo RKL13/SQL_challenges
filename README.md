@@ -25,6 +25,8 @@ This section gather some SQL's functions and tricks we found interesting.
 
 	+ One can use UNION ALL on the same table to duplicates records e.g : [id_9858](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Dificulty_Medium/id_9858_starred.sql) 
 
+	+ One can use AVG() OVER() to make a moving/rolling average e.g : [id_10314](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Dificulty_Hard/id_10314_starred.sql)
+
 *Since 06-27-2022 we go with a id_numid_starred.sql to highlight funny and very interesting challenges.* 
 
 #### On possible difficulty folders imbalance in tracks 
