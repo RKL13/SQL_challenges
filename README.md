@@ -6,7 +6,7 @@ Easy | Medium | Hard | Track
 :---:| :---:|:---:| ---
 ✅| ✅| ✅| [AirBnB](https://github.com/RKL13/SQL_challenges/tree/main/AirbnbTrack)
 ✅| ✅| ✅| [Amazon](https://github.com/RKL13/SQL_challenges/tree/main/AmazonTrack)
-⬜️| ⬜️| ⬜️| [Google](https://github.com/RKL13/SQL_challenges/tree/main/GoogleTrack)
+✅| ⬜️| ⬜️| [Google](https://github.com/RKL13/SQL_challenges/tree/main/GoogleTrack)
 
 
 
@@ -32,6 +32,8 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	+ One can use AVG() OVER() to make a moving/rolling average e.g : [id_10314](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Difficulty_Hard/id_10314_starred.sql)
 	
 	+ One can use generate_series in PostgreSQL to generate a serie e.g : [id_2089](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Difficulty_Hard/id_2089.sql)
+
+	+ COUNT(CASE ... END)[id_10141](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Dificulty_Medium/id_10141_starred.sql)
 
 + ##### Special Mention Challenges :trophy:
 
