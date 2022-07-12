@@ -17,3 +17,15 @@ friend_id:int
 
 */
 
+WITH bidirectional_table 
+AS (SELECT user_id
+    FROM google_friends_network
+    UNION ALL 
+    SELECT friend_id AS user_id 
+    FROM google_friends_network)
+    
+SELECT 
+    user_id
+FROM bidirectional_table
+GROUP BY user_id
+HAVING COUNT(*) > 3

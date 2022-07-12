@@ -16,12 +16,13 @@ This section gather some SQL's functions, tricks and challenges we found interes
 
 + ##### Functions :loop:
 
-	+ RANK(), DENSE_RANK(), ROW_NUMBER(), WINDOW() followed by OVER() clause (below)
+	+ RANK(), DENSE_RANK(), ROW_NUMBER(), WINDOW(), PERCENT_RANK() followed by OVER() clause (below)
 	+ OVER( (PARTITION BY (remember that one can put several columns here such as a GROUP BY) clause) (ORDER BY clause) (ROW or RANGE clause) ) 
 	+ EXTRACT( FROM )
 	+ TO_CHAR() for dates format
 	+ COALESCE()
 	+ LAG() OVER()
+	+ PERCENTILE_CONT ( numeric_literal ) WITHIN GROUP ( ORDER BY order_by_expression) OVER () [id_9611](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Dificulty_Medium/id_9611_starred.sql)
 
 + ##### Tricks :stars:
 
