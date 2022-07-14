@@ -6,7 +6,7 @@ Easy | Medium | Hard | Track
 :---:| :---:|:---:| ---
 ✅| ✅| ✅| [AirBnB](https://github.com/RKL13/SQL_challenges/tree/main/AirbnbTrack)
 ✅| ✅| ✅| [Amazon](https://github.com/RKL13/SQL_challenges/tree/main/AmazonTrack)
-✅| ⬜️| ⬜️| [Google](https://github.com/RKL13/SQL_challenges/tree/main/GoogleTrack)
+✅| ✅| ⬜️| [Google](https://github.com/RKL13/SQL_challenges/tree/main/GoogleTrack)
 
 
 
