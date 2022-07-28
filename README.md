@@ -22,10 +22,12 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	+ TO_CHAR() for dates format
 	+ COALESCE()
 	+ LAG() OVER()
-	+ PERCENTILE_CONT ( numeric_literal ) WITHIN GROUP ( ORDER BY order_by_expression) OVER () [id_9611](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Dificulty_Medium/id_9611_starred.sql)
+	+ PERCENTILE_CONT ( numeric_literal ) WITHIN GROUP ( ORDER BY order_by_expression) OVER () [id_9611](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Dificulty_Medium/id_9611_starred.sql) NB : CONT NOT COUNT
 	+ CORR(dependant, independant) OVER() [id_10069](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_10069.sql)
 	+ regexp_split_to_array(), unnest(), array_agg(), array_to_string() [id_9818](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9818.sql)
 	+ TRIM(content) or TRIM(content, 'characters') [id_9817](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9817.sql)
+	+ CARDINALITY()[id_9812](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9812.sql)
+	+ TRANSLATE()(replace regex into a string)[id_9794](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9794.sql)
 
 + ##### Tricks :stars:
 
