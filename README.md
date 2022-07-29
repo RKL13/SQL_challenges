@@ -39,7 +39,7 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	
 	+ One can use generate_series in PostgreSQL to generate a serie e.g : [id_2089](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Difficulty_Hard/id_2089.sql)
 
-	+ COUNT(CASE ... END)[id_10141](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Dificulty_Medium/id_10141_starred.sql)
+	+ COUNT(CASE ... END)[id_10141](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Dificulty_Medium/id_10141_starred.sql)[id_2105.sql](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_2105.sql)
 
 	+ One can order by several contradictory sorting order ex: (ORDER BY x ASC, y DESC) [id_10351.sql](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_10351.sql)
 
