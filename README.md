@@ -27,6 +27,7 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	+ TRIM(content) or TRIM(content, 'characters') [id_9817](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9817.sql)
 	+ CARDINALITY()[id_9812](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9812.sql)
 	+ TRANSLATE()(replace regex into a string)[id_9794](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9794.sql)
+	+ DATE_PART()
 
 + ##### Tricks :stars:
 
