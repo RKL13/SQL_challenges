@@ -7,7 +7,7 @@ Easy | Medium | Hard | Track
 ✅| ✅| ✅| [AirBnB](https://github.com/RKL13/SQL_challenges/tree/main/AirbnbTrack)
 ✅| ✅| ✅| [Amazon](https://github.com/RKL13/SQL_challenges/tree/main/AmazonTrack)
 ✅| ✅| ✅| [Google](https://github.com/RKL13/SQL_challenges/tree/main/GoogleTrack)
-⬜️| ⬜️| ⬜️| [Meta/Facebook](https://github.com/RKL13/SQL_challenges/tree/main/MetaFacebookTrack)
+✅| ⬜️| ⬜️| [Meta/Facebook](https://github.com/RKL13/SQL_challenges/tree/main/MetaFacebookTrack)
 
 ### Cheat Sheet of SQL's interesting funtions, tricks and challenges :wrench:
 
@@ -27,7 +27,7 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	+ TRIM(content) or TRIM(content, 'characters') [id_9817](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9817.sql)
 	+ CARDINALITY()[id_9812](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9812.sql)
 	+ TRANSLATE()(replace regex into a string)[id_9794](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9794.sql)
-	+ DATE_PART()
+	+ Datetimes : DATE_PART(), EXTRACT(), TO_CHAR()
 
 + ##### Tricks :stars:
 
@@ -42,6 +42,8 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	+ COUNT(CASE ... END)[id_10141](https://github.com/RKL13/SQL_challenges/blob/main/AmazonTrack/Dificulty_Medium/id_10141_starred.sql)[id_2105.sql](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_2105.sql)
 
 	+ One can order by several contradictory sorting order ex: (ORDER BY x ASC, y DESC) [id_10351.sql](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_10351.sql)
+
+	+ Date difference with ex : WHERE created_at BETWEEN '2020-02-10'::DATE - 30 * INTERVAL '1 day' AND '2020-02-10' [id_2004.sql](https://github.com/RKL13/SQL_challenges/blob/main/MetaFacebookTrack/Difficulty_Easy/id_2004.sql)
 
 + ##### Special Mention Challenges :trophy:
 
