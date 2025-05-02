@@ -8,6 +8,8 @@ Easy | Medium | Hard | Track
 ✅| ✅| ✅| [Amazon](https://github.com/RKL13/SQL_challenges/tree/main/AmazonTrack)
 ✅| ✅| ✅| [Google](https://github.com/RKL13/SQL_challenges/tree/main/GoogleTrack)
 ✅| ⬜️| ⬜️| [Meta/Facebook](https://github.com/RKL13/SQL_challenges/tree/main/MetaFacebookTrack)
+⬜️| ⬜️| ⬜️| [Netflix](https://github.com/RKL13/SQL_challenges/tree/main/Netflix)
+⬜️| ⬜️| ✅| [Twitch](https://github.com/RKL13/SQL_challenges/tree/main/Twitch)
 
 ### Cheat Sheet of SQL's interesting funtions, tricks and challenges :wrench:
 
