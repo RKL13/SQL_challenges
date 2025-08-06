@@ -57,3 +57,7 @@ This section gather some SQL's functions, tricks and challenges we found interes
 
 There are often fewer HARD level challenges available on StartaScratch hence the imbalance one can find in between tracks' level folders. 
 This imbalance does not come from our part as we tend to resolve all the challenges, whatever their difficulties are. :horse_racing:
+
+#### Order of SQL
+
+FROM + JOIN → WHERE → GROUP BY → HAVING → SELECT (+ fonctions de fenêtre OVER) → ORDER BY → LIMIT
