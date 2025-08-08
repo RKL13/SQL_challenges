@@ -10,6 +10,8 @@ Easy | Medium | Hard | Track
 ✅| ⬜️| ⬜️| [Meta/Facebook](https://github.com/RKL13/SQL_challenges/tree/main/MetaFacebookTrack)
 ⬜️| ⬜️| ⬜️| [Netflix](https://github.com/RKL13/SQL_challenges/tree/main/Netflix)
 ⬜️| ⬜️| ✅| [Twitch](https://github.com/RKL13/SQL_challenges/tree/main/Twitch)
+⬜️| ✅| ✅| [Ebay](https://github.com/RKL13/SQL_challenges/tree/main/Ebay)
+⬜️| ⬜️| ⬜️| [Microsoft](https://github.com/RKL13/SQL_challenges/tree/main/Microsoft)
 
 ### Cheat Sheet of SQL's interesting funtions, tricks and challenges :wrench:
 
@@ -30,6 +32,7 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	+ CARDINALITY()[id_9812](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9812.sql)
 	+ TRANSLATE()(replace regex into a string)[id_9794](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9794.sql)
 	+ Datetimes : DATE_PART(), EXTRACT(YEAR/MONTH/etc FROM var) (careful must put AS for aliases with EXTRACT), TO_CHAR()
+	+ generate_series(x, y) <=> ~range(x, y) pandas (nb: can be MIN MAX, etc)
 
 + ##### Tricks :stars:
 
