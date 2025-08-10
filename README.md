@@ -11,7 +11,7 @@ Easy | Medium | Hard | Track
 ⬜️| ⬜️| ⬜️| [Netflix](https://github.com/RKL13/SQL_challenges/tree/main/Netflix)
 ⬜️| ⬜️| ✅| [Twitch](https://github.com/RKL13/SQL_challenges/tree/main/Twitch)
 ⬜️| ✅| ✅| [Ebay](https://github.com/RKL13/SQL_challenges/tree/main/Ebay)
-⬜️| ⬜️| ⬜️| [Microsoft](https://github.com/RKL13/SQL_challenges/tree/main/Microsoft)
+⬜️| ✅| ✅| [Microsoft](https://github.com/RKL13/SQL_challenges/tree/main/Microsoft)
 
 ### Cheat Sheet of SQL's interesting funtions, tricks and challenges :wrench:
 
@@ -49,6 +49,12 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	+ One can order by several contradictory sorting order ex: (ORDER BY x ASC, y DESC) [id_10351.sql](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_10351.sql)
 
 	+ Date difference with ex : WHERE created_at BETWEEN '2020-02-10'::DATE - 30 * INTERVAL '1 day' AND '2020-02-10' [id_2004.sql](https://github.com/RKL13/SQL_challenges/blob/main/MetaFacebookTrack/Difficulty_Easy/id_2004.sql)
+
+	+ If ask for 2 last in a rank, rank from bottom to top so you can filter top 2 (for instance).
+
+	+ If ask for "top" or "bottom" need a rank no matter what (count can fool would have to be ranked).
+
+	+ Careful with "to the closetst integer" round might not work if the computation is not ::numeric converted ::numeric does provide actual decimals etc vs sql that automatically round up in case so round(a/b::numeric, 0) != round(a/b, 0) 
 
 + ##### Special Mention Challenges :trophy:
 
