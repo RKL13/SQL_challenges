@@ -11,6 +11,7 @@ Easy | Medium | Hard | Track
 ⬜️| ⬜️| ✅| [Twitch](https://github.com/RKL13/SQL_challenges/tree/main/Twitch)
 ⬜️| ✅| ✅| [Ebay](https://github.com/RKL13/SQL_challenges/tree/main/Ebay)
 ⬜️| ✅| ✅| [Microsoft](https://github.com/RKL13/SQL_challenges/tree/main/Microsoft)
+✅| ⬜️| ⬜️| [LinkedIn](https://github.com/RKL13/SQL_challenges/tree/main/LinkedInTrack)
 
 ### Cheat Sheet of SQL's interesting funtions, tricks and challenges :wrench:
 
@@ -32,6 +33,7 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	+ TRANSLATE()(replace regex into a string)[id_9794](https://github.com/RKL13/SQL_challenges/blob/main/GoogleTrack/Difficulty_Hard/id_9794.sql)
 	+ Datetimes : DATE_PART(), EXTRACT(YEAR/MONTH/etc FROM var) (careful must put AS for aliases with EXTRACT), TO_CHAR()
 	+ generate_series(x, y) <=> ~range(x, y) pandas (nb: can be MIN MAX, etc)
+	+ filter postgre <=> MAX(CASE WhEN column1 = '' THEN column2 END) [id_10308] (https://github.com/RKL13/SQL_challenges/blob/main/LinkedInTrack/Dificulty_Easy/id_10308.sql)
 
 + ##### Tricks :stars:
 
