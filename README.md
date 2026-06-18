@@ -34,6 +34,7 @@ This section gather some SQL's functions, tricks and challenges we found interes
 	+ Datetimes : DATE_PART(), EXTRACT(YEAR/MONTH/etc FROM var) (careful must put AS for aliases with EXTRACT), TO_CHAR()
 	+ generate_series(x, y) <=> ~range(x, y) pandas (nb: can be MIN MAX, etc)
 	+ filter postgre <=> MAX(CASE WhEN column1 = '' THEN column2 END) [id_10308] (https://github.com/RKL13/SQL_challenges/blob/main/LinkedInTrack/Dificulty_Easy/id_10308.sql)
+	+ on BQ : select * except (column1, column2, etc)
 
 + ##### Tricks :stars:
 
